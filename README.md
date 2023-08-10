@@ -25,10 +25,7 @@ To run this API, ensure you have the following installed:
    npm install
    ```
 
-3. Set up the MongoDB connection in the `.env` file:
-   ```
-   MONGODB_URI=<your_mongodb_uri>
-   ```
+3. Set up the MongoDB connection:
 
 4. Start the server:
    ```
@@ -77,7 +74,7 @@ Update details of a specific author by their author_id. Send updated author deta
 
 Delete a specific author by their author_id or authorname.
 
-## Request and Response Formats
+## Request Format
 
 ### Book
 #### *price must be a number.
@@ -101,7 +98,7 @@ Delete a specific author by their author_id or authorname.
 }
 ```
 
-## Request and Response Formats
+## Response Format
 
 ### Book
 #### *price must be a number.
